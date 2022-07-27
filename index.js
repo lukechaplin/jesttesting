@@ -7,3 +7,7 @@ function Sum2() {
 }
 
 Sum2();
+
+hello = () => console.log("hello world!");
+
+hello();
