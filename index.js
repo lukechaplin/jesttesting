@@ -2,14 +2,12 @@ const sum = () => (total = 1 + 2);
 
 sum();
 
-module.exports = sum;
+const sum2 = () => (total2 = 1 + 2);
 
-/*function Sum2() {
-	(total2 = 1 + 2), console.log(total2);
-}
+sum2();
 
-Sum2();
+const hello = () => "hello world!";
 
-hello = () => console.log("hello world!");
+hello();
 
-hello();*/
+module.exports = { sum, sum2, hello };
